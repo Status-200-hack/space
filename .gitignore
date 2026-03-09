@@ -1,0 +1,176 @@
+# ============================================================================
+# PYTHON / BACKEND
+# ============================================================================
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.local
+.env.*.local
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.hypothesis/
+*.cover
+*.py,cover
+.pytest_cache/
+test-results/
+
+# Linting / Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# ============================================================================
+# NODE.JS / FRONTEND
+# ============================================================================
+
+# Dependencies
+node_modules/
+yarn.lock
+package-lock.json
+pnpm-lock.yaml
+bun.lockb
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Next.js / Build
+.next/
+out/
+build/
+dist/
+.turbo/
+.vercel/
+
+# Production
+.cache/
+
+# Misc
+*.pem
+.env*.local
+.env*.production
+
+# Testing
+coverage/
+.nyc_output/
+
+# ============================================================================
+# OS / EDITOR
+# ============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*.swo
+*~
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+*.sublime-project
+*.sublime-workspace
+.vim/
+
+# Editors
+*.swp
+*.swo
+*~
+.#*
+.*.sw*
+
+# ============================================================================
+# PROJECT-SPECIFIC
+# ============================================================================
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated files
+dist/
+build/
+
+# Environment-specific
+.env
+.env.local
+.env.*.local
+.env.test.local
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# OS temp files
+.tmp/
+.cache/
+
+# IDE generated files
+.vscode-server/
+
+# Error logs from builds
+*error.txt
+*err.txt
+*build_err*.txt
